@@ -1,8 +1,9 @@
 {
-  "required": true,
-  "minVersion": "0.8",
-  "package": "cc.irori.patches.mixin",
-  "mixins": [
-    "MarkerAddRemoveSystemMixin"
-  ]
-}
+    "required": true,
+    "minVersion": "0.8",
+    "package": "cc.irori.patches.mixin",
+    "mixins": [
+      "MarkerAddRemoveSystemMixin",
+      "PickupItemSystemMixin"
+    ]
+  }
