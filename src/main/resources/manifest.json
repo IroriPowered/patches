@@ -1,0 +1,23 @@
+{
+  "Group": "IroriPowered",
+  "Name": "Patches",
+  "Version": "1.0.0",
+  "Website": "https://www.irori.cc/",
+  "Description": "Server patches",
+  "Authors": [
+    {
+      "Name": "KabanFriends",
+      "Url": "https://github.com/KabanFriends"
+    }
+  ],
+  "ServerVersion": "*",
+  "Dependencies": {
+    "Build-9:Hyxin": "*"
+  },
+  "OptionalDependencies": {},
+  "Hyxin": {
+    "Configs": [
+      "patches.mixins.json"
+    ]
+  }
+}
