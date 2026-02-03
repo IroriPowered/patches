@@ -1,0 +1,7 @@
+[versions]
+hytale = "+"
+hyxin = "7399430"
+
+[libraries]
+hytale = { group = "com.hypixel.hytale", name = "Server", version.ref = "hytale" }
+hyxin = { group = "curse.maven", name = "hyxin-1405491", version.ref = "hyxin" }

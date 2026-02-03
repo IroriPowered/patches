@@ -7,10 +7,11 @@ version = "1.0-SNAPSHOT"
 
 repositories {
     mavenCentral()
+    maven("https://maven.hytale.com/release")
     maven("https://cursemaven.com")
 }
 
 dependencies {
-    compileOnly(files("libs/HytaleServer.jar"))
-    compileOnly("curse.maven:hyxin-1405491:7399430")
+    compileOnly(libs.hytale)
+    compileOnly(libs.hyxin)
 }
